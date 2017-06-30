@@ -1,0 +1,71 @@
+
+
+scm: git -> bitbucket , gogs
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin http://gogs-redcon-cicd.10.1.2.2.nip.io/edmacabebe/redconnect.git
+git push -u origin master
+
+
+cicd: jenkins using groovy dsl pipelines
+sonarqube: code test coverage, static code analysis, detect bugs early and anti-patterns
+nexus: archive, build artefact
+docker registry: -> docker
+
+openshift
+	trigger image build, deploy to stage:dev
+	integration tests
+	promote image, deploy to stage: qa
+
+
+misc: prometheus nodejs monitoring, perf test
+
+
+CI/CD Demo - Origin/Kubernetes Container Platform 1.5
+
+The Devtest repository includes the infrastructure and pipeline definition for continuous delivery using Jenkins, Docker Registry and SonarQube on Origin. 
+On every pipeline execution, the code goes through the following steps:
+
+Code is cloned from Gogs/bitbucket, built, tested and analyzed for bugs and bad patterns
+The Docker Image artifact is pushed to Docker registry
+our docker images (redcon-devtest:latest) is built based on the Tasks application Image artifact deployed on
+	ML9 Application Server : ICD
+	Node8 : ICD-API
+	Node8 : RedCon App
+The Tasks Docker image is deployed in a fresh new container in DEVtest project
+If tests successful, the DEVtest images is tagged with the application version (tasks:1.x) in the STAGE(postdevtest) project
+The staged images is deployed in a fresh new container in the STAGE(postdevtest) project
+
+oc cluster up --public-hostname=10.1.2.2 --routing-suffix=10.1.2.2.nip.io --host-data-dir=/var/lib/origin/dev.local.data --use-existing-config
+
+oc new-project redcon-devtest --display-name="Tasks - DevTest"
+oc new-project redcon-postdevtest --display-name="Tasks - PostDevTest"
+oc new-project redcon-cicd --display-name="RedConnect DevTest CI/CD Pipeline"
+oc policy add-role-to-user edit system:serviceaccount:redcon-cicd:jenkins -n redcon-devtest
+oc policy add-role-to-user edit system:serviceaccount:redcon-cicd:jenkins -n redcon-postdevtest
+oc process -f redcon-cicd-template.yaml -v DEV_PROJECT=redcon-devtest -v STAGE_PROJECT=redcon-postdevtest | oc create -f - -n redcon-cicd
+
+
+oc process -f cicd-template.yaml -v DEV_PROJECT=redcon-devtest -v STAGE_PROJECT=redcon-postdevtest | oc create -f - -n redcon-cicd
+
+oc process -f redcon-cicd-template.yaml | oc create -f -
+oc process -f cicd-template.yaml -v DEV_PROJECT=dev-project-name -v STAGE_PROJECT=stage-project-name | oc create -f - -n cicd-project-name
+oc process -f cicd-template.yaml -v DEV_PROJECT=redcon-devtest -v STAGE_PROJECT=redcon-postdevtest | oc create -f - -n redcon-cicd
+
+oc new-project redcon-cicd --display-name="RedConnect DevTest CI/CD Pipeline"
+oc policy add-role-to-user edit system:serviceaccount:redcon-cicd:jenkins -n redcon-devtest
+oc policy add-role-to-user edit system:serviceaccount:redcon-cicd:jenkins -n redcon-postdevtest
+oc process -f redcon-cicd-template.yaml -v DEV_PROJECT=redcon-devtest -v STAGE_PROJECT=redcon-postdevtest | oc create -f - -n redcon-cicd
+
+
+
+
+oc describe <resource>/<name>' or list everything with 'oc get all'
+oc delete dc icd-api -n redcon-devtest
+
+
+curl --anyauth --user admin:admin -X PUT -i -H "Content-Type: application/json" -T payload.json "http://172.17.0.2:8002/documents"
+curl -v --anyauth --user admin:admin -H "Content-Type: application/json" -X PUT -d '{"person":{"first":"John", "last":"Doe"}}' "http://172.17.0.2:8003/v1/documents?uri=/docs/person.json"
+curl -v --anyauth --user admin:admin -H "Content-Type: application/json" -X PUT -d '{"person":{"first":"John", "last":"Doe"}}' "http://172.17.0.2:8003/v1/documents?uri=/docs/person.json"

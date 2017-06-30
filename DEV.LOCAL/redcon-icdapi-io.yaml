@@ -1,0 +1,2 @@
+# routerip="172.30.134.11"  #  replace with IP address of one of your router instances.
+# curl -k --resolve redcon.icdapi.io:443:$routerip https://redcon.icdapi.io/

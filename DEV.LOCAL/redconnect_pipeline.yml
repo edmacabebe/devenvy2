@@ -1,0 +1,62 @@
+apiVersion: v1
+kind: BuildConfig
+metadata:
+  labels:
+    app: jenkins-pipeline-redconnect
+    name: redcon
+    template: application-template-sample-pipeline
+  name: redcon
+spec:
+  runPolicy: Serial
+  strategy:
+    jenkinsPipelineStrategy:
+      jenkinsfile: |-
+        node('data') {
+          stage('build') {
+            openshiftBuild(buildConfig: 'data', showBuildLogs: 'true')
+          }
+          stage('deploy') {
+            openshiftDeploy(deploymentConfig: 'data')
+          }
+          stage('test') {
+            openshiftTest(testConfig: 'data')
+          }
+        }
+        node('api') {
+          stage('build') {
+            openshiftBuild(buildConfig: 'api', showBuildLogs: 'true')
+          }
+          stage('deploy') {
+            openshiftDeploy(deploymentConfig: 'api')
+          }
+          stage('test') {
+            openshiftTest(testConfig: 'api')
+          }
+        }
+        node('client') {
+          stage('build') {
+            openshiftBuild(buildConfig: 'client', showBuildLogs: 'true')
+          }
+          stage('deploy') {
+            openshiftDeploy(deploymentConfig: 'client')
+          }
+          stage('test') {
+            openshiftTest(testConfig: 'client')
+          }
+          stage( 'Wait for approval')
+            input( 'Aprove promotion to DEVTEST?')
+          stage('Deploy DEVTEST'){
+            openshiftDeploy(deploymentConfig: 'redcon', namespace: 'redcon-devtest')
+          }
+        }
+    type: JenkinsPipeline
+  triggers:
+  - github:
+      secret: secret101
+    type: GitHub
+  - bitbucket:
+        secret: secret101
+      type: BitBucket
+  - generic:
+      secret: secret101
+    type: Generic
