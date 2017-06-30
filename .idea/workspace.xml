@@ -2,281 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e411f3f5-2e59-48b6-9655-73f377620adc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DEV.LOCAL/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DEV.LOCAL/servers/API/NodeJS/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DEV.LOCAL/servers/API/NodeJS/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DEV.LOCAL/servers/API/NodeJS/s2i/bin/assemble" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DEV.LOCAL/dock-api-origin.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DEV.LOCAL/servers/API/NodeJS/dock-api-origin.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DEV.LOCAL/servers/API/NodeJS/guide.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DEV.LOCAL/servers/API/NodeJS/test/test-app/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DEV.LOCAL/servers/API/NodeJS/node-ml.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DEV.LOCAL/servers/API/NodeJS/s2i/bin/run" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DEV.LOCAL/servers/API/NodeJS/test/run" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DEV.LOCAL/servers/API/NodeJS/s2i/bin/save-artifacts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DEV.LOCAL/servers/API/NodeJS/s2i/bin/usage" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/build.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/default.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DEV.LOCAL/images/cicd_end_pipeline.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DEV.LOCAL/images/cicd_jenkins_authorize.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DEV.LOCAL/images/cicd_jenkins_login.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DEV.LOCAL/images/cicd_jenkins_persistent.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DEV.LOCAL/images/cicd_jenkins_progress.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DEV.LOCAL/images/cicd_mongodb_settings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DEV.LOCAL/images/cicd_new_project.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DEV.LOCAL/images/cicd_node_js.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DEV.LOCAL/images/cicd_nodejs_settings1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DEV.LOCAL/images/cicd_nodejs_settings2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DEV.LOCAL/images/cicd_pipeline_empty.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DEV.LOCAL/images/cicd_pipeline_navigate.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DEV.LOCAL/images/cicd_pipeline_wait_approval.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DEV.LOCAL/images/cicd_start_pipeline.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DEV.LOCAL/images/cicd_todo_dev_rolling_deployment.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DEV.LOCAL/images/cicd_todo_route.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DEV.LOCAL/images/cicd_todo_web.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DEV.LOCAL/images/cicd_uat_deployment.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DEV.LOCAL/images/cicd_uat_overview.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DEV.LOCAL/images/host-only1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DEV.LOCAL/images/host-only2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DEV.LOCAL/images/host-only3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DEV.LOCAL/images/install_centos_cpu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DEV.LOCAL/images/install_centos_create.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DEV.LOCAL/images/install_centos_memory.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DEV.LOCAL/images/networking-host-only.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DEV.LOCAL/images/networking-nat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DEV.LOCAL/images/oc-er01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DEV.LOCAL/images/openshift_registry_screenshot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DEV.LOCAL/images/openshift_tomcat_screenshot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DEV.LOCAL/images/tomcat_image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DEV.LOCAL/images/web_console.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/.editorconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/CHANGELOG.mdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/app_specific.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/dev.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/Help.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/MLClient.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/RoxyHttp.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/framework.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/java/marklogic-corb-2.3.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/java/marklogic-xcc-9.0.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/java/recordloader.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/java/xpp3-1.1.4c.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/java/xqsync.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/java/xstream-1.4.10.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/json.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/json/Array.xpm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/json/FalseClass.xpm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/json/Hash.xpm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/json/Key.xpm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/json/NilClass.xpm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/json/Numeric.xpm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/json/String.xpm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/json/TrueClass.xpm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/json/add/core.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/json/add/rails.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/json/common.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/json/editor.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/json/ext.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/json/json.xpm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/json/pure.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/json/pure/generator.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/json/pure/parser.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/json/version.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/ml.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/ml_rest.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/password.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/scaffold.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/server_config.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/templates/controller-function.xqy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/templates/controller.xqy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/templates/layout.html.xqy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/templates/layout.xqy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/templates/model-function.xqy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/templates/model.xqy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/templates/test.xqy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/templates/view.html.xqy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/templates/view.json.xqy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/templates/view.xml.xqy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/templates/view.xqy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/upgrader.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/util.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/xcc.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/xquery/cpf.xqy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/xquery/setup.xqy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/lib/xquery/triggers.xqy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/local.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/ml-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/prod.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/sample/all.sample.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/sample/build.sample.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/sample/custom-config.xqy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/sample/default-docs-config.sample.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/sample/log-create.xqy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/sample/ml-config.sample.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/sample/pipeline-config.sample.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/sample/properties.sample.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/sample/rest-ext.sample.xqy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/sample/rest-transform.sample.xqy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/sample/rest-transform.sample.xslt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/sample/triggers-config.sample.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/test/data/ml4-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/test/data/ml4-properties/build.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/test/data/ml4-properties/default.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/test/data/ml5-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/test/data/ml5-properties/build.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/test/data/ml5-properties/default.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/test/data/ml6-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/test/data/ml6-properties/build.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/test/data/ml6-properties/default.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/test/data/ml7-config-changed.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/test/data/ml7-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/test/data/ml7-properties/build.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/test/data/ml7-properties/default.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/test/test_generators.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/test/test_main.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/test/test_server_config.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/test/test_util.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/license.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/ml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/ml.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/rest-api/config/options/all.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/rest-api/config/properties.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/src/config/config.xqy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/version.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SRC/LOGIC/integracheck-api/icd-api.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TOOLS/docker-engine-1.12.1-1.el7.centos.x86_64.rpm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TOOLS/mlcp-9.0.1-bin.zip" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/.editorconfig" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/.editorconfig" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/.jshintrc" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/.jshintrc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/CHANGELOG.mdown" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/CHANGELOG.mdown" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/CONTRIBUTING.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/README.md" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/app_specific.rb" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/app_specific.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/dev.properties" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/dev.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/Help.rb" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/Help.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/MLClient.rb" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/MLClient.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/RoxyHttp.rb" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/RoxyHttp.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/framework.rb" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/framework.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/java/marklogic-corb-2.3.2.jar" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/java/marklogic-corb-2.3.2.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/java/marklogic-xcc-9.0.1.jar" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/java/marklogic-xcc-9.0.1.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/java/recordloader.jar" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/java/recordloader.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/java/xpp3-1.1.4c.jar" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/java/xpp3-1.1.4c.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/java/xqsync.jar" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/java/xqsync.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/java/xstream-1.4.10.jar" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/java/xstream-1.4.10.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/json.rb" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/json.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/json/Array.xpm" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/json/Array.xpm" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/json/FalseClass.xpm" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/json/FalseClass.xpm" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/json/Hash.xpm" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/json/Hash.xpm" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/json/Key.xpm" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/json/Key.xpm" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/json/NilClass.xpm" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/json/NilClass.xpm" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/json/Numeric.xpm" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/json/Numeric.xpm" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/json/String.xpm" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/json/String.xpm" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/json/TrueClass.xpm" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/json/TrueClass.xpm" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/json/add/core.rb" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/json/add/core.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/json/add/rails.rb" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/json/add/rails.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/json/common.rb" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/json/common.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/json/editor.rb" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/json/editor.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/json/ext.rb" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/json/ext.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/json/json.xpm" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/json/json.xpm" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/json/pure.rb" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/json/pure.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/json/pure/generator.rb" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/json/pure/generator.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/json/pure/parser.rb" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/json/pure/parser.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/json/version.rb" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/json/version.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/ml.rb" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/ml.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/ml_rest.rb" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/ml_rest.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/password.rb" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/password.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/scaffold.rb" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/scaffold.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/server_config.rb" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/server_config.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/templates/controller-function.xqy" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/templates/controller-function.xqy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/templates/controller.xqy" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/templates/controller.xqy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/templates/layout.html.xqy" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/templates/layout.html.xqy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/templates/layout.xqy" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/templates/layout.xqy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/templates/model-function.xqy" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/templates/model-function.xqy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/templates/model.xqy" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/templates/model.xqy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/templates/test.xqy" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/templates/test.xqy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/templates/view.html.xqy" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/templates/view.html.xqy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/templates/view.json.xqy" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/templates/view.json.xqy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/templates/view.xml.xqy" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/templates/view.xml.xqy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/templates/view.xqy" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/templates/view.xqy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/upgrader.rb" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/upgrader.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/util.rb" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/util.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/xcc.rb" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/xcc.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/xquery/cpf.xqy" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/xquery/cpf.xqy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/xquery/setup.xqy" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/xquery/setup.xqy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/lib/xquery/triggers.xqy" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/lib/xquery/triggers.xqy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/local.properties" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/local.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/ml-config.xml" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/ml-config.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/prod.properties" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/prod.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/sample/all.sample.xml" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/sample/all.sample.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/sample/build.sample.properties" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/sample/build.sample.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/sample/custom-config.xqy" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/sample/custom-config.xqy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/sample/default-docs-config.sample.xml" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/sample/default-docs-config.sample.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/sample/log-create.xqy" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/sample/log-create.xqy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/sample/ml-config.sample.xml" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/sample/ml-config.sample.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/sample/pipeline-config.sample.xml" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/sample/pipeline-config.sample.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/sample/properties.sample.xml" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/sample/properties.sample.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/sample/rest-ext.sample.xqy" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/sample/rest-ext.sample.xqy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/sample/rest-transform.sample.xqy" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/sample/rest-transform.sample.xqy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/sample/rest-transform.sample.xslt" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/sample/rest-transform.sample.xslt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/sample/triggers-config.sample.xml" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/sample/triggers-config.sample.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/test/data/ml4-config.xml" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/test/data/ml4-config.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/test/data/ml4-properties/build.properties" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/test/data/ml4-properties/build.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/test/data/ml4-properties/default.properties" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/test/data/ml4-properties/default.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/test/data/ml5-config.xml" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/test/data/ml5-config.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/test/data/ml5-properties/build.properties" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/test/data/ml5-properties/build.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/test/data/ml5-properties/default.properties" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/test/data/ml5-properties/default.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/test/data/ml6-config.xml" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/test/data/ml6-config.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/test/data/ml6-properties/build.properties" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/test/data/ml6-properties/build.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/test/data/ml6-properties/default.properties" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/test/data/ml6-properties/default.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/test/data/ml7-config-changed.xml" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/test/data/ml7-config-changed.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/test/data/ml7-config.xml" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/test/data/ml7-config.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/test/data/ml7-properties/build.properties" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/test/data/ml7-properties/build.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/test/data/ml7-properties/default.properties" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/test/data/ml7-properties/default.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/test/test_generators.rb" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/test/test_generators.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/test/test_main.rb" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/test/test_main.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/test/test_server_config.rb" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/test/test_server_config.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/deploy/test/test_util.rb" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/test/test_util.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/license.txt" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/license.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/ml" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/ml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/ml.bat" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/ml.bat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/rest-api/config/options/all.xml" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/rest-api/config/options/all.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/rest-api/config/properties.xml" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/rest-api/config/properties.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/src/config/config.xqy" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/src/config/config.xqy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/artifacts/DATA/integracheck/version.txt" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/version.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/dev workflow" afterPath="$PROJECT_DIR$/DEV.LOCAL/dev workflow.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DEV.LOCAL/servers/API/NodeJS/Dockerfile" afterPath="$PROJECT_DIR$/DEV.LOCAL/servers/API/NodeJS/Dockerfile.old" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/build.properties" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/build.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/SRC/DATA/integracheck/deploy/default.properties" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/DATA/integracheck/deploy/default.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/SRC/LOGIC/integracheck-api/.gitignore" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/LOGIC/integracheck-api/.gitignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/SRC/LOGIC/integracheck-api/.jshintrc" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/LOGIC/integracheck-api/.jshintrc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/SRC/LOGIC/integracheck-api/README.md" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/LOGIC/integracheck-api/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/SRC/LOGIC/integracheck-api/app.js" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/LOGIC/integracheck-api/app.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/SRC/LOGIC/integracheck-api/bin/www" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/LOGIC/integracheck-api/bin/www" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/SRC/LOGIC/integracheck-api/env-config/ml-config.js" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/LOGIC/integracheck-api/env-config/ml-config.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/SRC/LOGIC/integracheck-api/gulp.config.js" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/LOGIC/integracheck-api/gulp.config.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/SRC/LOGIC/integracheck-api/gulpfile.js" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/LOGIC/integracheck-api/gulpfile.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/SRC/LOGIC/integracheck-api/package-lock.json" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/LOGIC/integracheck-api/package-lock.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/SRC/LOGIC/integracheck-api/package.json" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/LOGIC/integracheck-api/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/SRC/LOGIC/integracheck-api/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/LOGIC/integracheck-api/public/stylesheets/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/SRC/LOGIC/integracheck-api/routes/documents.js" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/LOGIC/integracheck-api/routes/documents.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/SRC/LOGIC/integracheck-api/routes/index.js" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/LOGIC/integracheck-api/routes/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/SRC/LOGIC/integracheck-api/routes/profiles.js" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/LOGIC/integracheck-api/routes/profiles.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/SRC/LOGIC/integracheck-api/routes/users.js" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/LOGIC/integracheck-api/routes/users.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/SRC/LOGIC/integracheck-api/test/index.spec.js" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/LOGIC/integracheck-api/test/index.spec.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/SRC/LOGIC/integracheck-api/test/users.spec.js" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/LOGIC/integracheck-api/test/users.spec.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/SRC/LOGIC/integracheck-api/utils/errors.js" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/LOGIC/integracheck-api/utils/errors.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/SRC/LOGIC/integracheck-api/utils/request-util.js" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/LOGIC/integracheck-api/utils/request-util.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/SRC/LOGIC/integracheck-api/views/error.pug" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/LOGIC/integracheck-api/views/error.pug" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/SRC/LOGIC/integracheck-api/views/index.pug" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/LOGIC/integracheck-api/views/index.pug" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/SRC/LOGIC/integracheck-api/views/layout.pug" afterPath="$PROJECT_DIR$/DEV.LOCAL/SRC/LOGIC/integracheck-api/views/layout.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DEV.LOCAL/servers/API/NodeJS/Dockerfile" afterPath="$PROJECT_DIR$/DEV.LOCAL/servers/API/NodeJS/Dockerfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DEV.LOCAL/README.md" afterPath="$PROJECT_DIR$/DEV.LOCAL/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DEV.LOCAL/init_devtest_stages.sh" afterPath="$PROJECT_DIR$/DEV.LOCAL/init_devtest_stages.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DEV.LOCAL/using_cicd_pipeline.md" afterPath="$PROJECT_DIR$/DEV.LOCAL/using_cicd_pipeline.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="redconnect.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -307,10 +33,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dock-api-origin.sh" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dock-api-origin.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DEV.LOCAL/servers/API/NodeJS/dock-api-origin.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5549598">
+            <state vertical-scroll-proportion="0.0">
               <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
               <folding />
             </state>
@@ -329,27 +55,17 @@
       </file>
       <file leaf-file-name="using_cicd_pipeline.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DEV.LOCAL/using_cicd_pipeline.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+          <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.7960688">
+              <first_editor vertical-scroll-proportion="0.48868778">
                 <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
                 <folding />
               </first_editor>
               <second_editor />
             </state>
           </provider>
-          <provider editor-type-id="MarkdownFxPreviewEditor">
+          <provider selected="true" editor-type-id="MarkdownFxPreviewEditor">
             <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dev workflow.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DEV.LOCAL/dev workflow.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
           </provider>
         </entry>
       </file>
@@ -383,12 +99,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="guide.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="guide.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DEV.LOCAL/servers/API/NodeJS/guide.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="-3.8413794">
+              <first_editor vertical-scroll-proportion="-2.047757">
                 <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DEV.LOCAL/servers/API/NodeJS/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor vertical-scroll-proportion="0.0">
+                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -434,6 +166,7 @@
         <option value="$PROJECT_DIR$/DEV.LOCAL/using_cicd_pipeline.md" />
         <option value="$PROJECT_DIR$/DEV.LOCAL/init_devtest_stages.sh" />
         <option value="$PROJECT_DIR$/DEV.LOCAL/servers/API/NodeJS/dock-api-origin.sh" />
+        <option value="$PROJECT_DIR$/DEV.LOCAL/servers/API/NodeJS/seed" />
       </list>
     </option>
   </component>
@@ -568,40 +301,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="NodeJS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redconnect" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redconnect" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DEV.LOCAL" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="servers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="API" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NodeJS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="s2i" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1041,34 +740,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DEV.LOCAL/servers/API/NodeJS/guide.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="-3.8413794">
-            <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DEV.LOCAL/using_cicd_pipeline.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.7960688">
-            <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DEV.LOCAL/servers/API/NodeJS/s2i/bin/assemble">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1127,10 +798,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DEV.LOCAL/servers/API/NodeJS/dock-api-origin.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5549598">
+        <state vertical-scroll-proportion="0.0">
           <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DEV.LOCAL/servers/API/NodeJS/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DEV.LOCAL/using_cicd_pipeline.md">
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.48868778">
+            <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DEV.LOCAL/servers/API/NodeJS/seed">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DEV.LOCAL/servers/API/NodeJS/guide.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="-2.047757">
+            <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
       </provider>
     </entry>
   </component>
